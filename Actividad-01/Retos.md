@@ -6,6 +6,9 @@ Verter el contenido del vaso "B" al vaso "C" vacío.
 Tomar el vaso "A" y verter todo el contenido al vaso "B" ahora vacío.
 ### 3.
 Tomar el vaso "C" y verter todo al vaso "A".
+
+---
+
 ## Reto 2
 ### Seudocódigo
 
