@@ -1,6 +1,6 @@
 # Requisitos pensados para TechFest
 ### A continuación se enlistarán los distintos requerimientos pensados para la herramienta TechFest:
-# Requerimientos Funcionales
+# Requerimientos
 01. El sistema debe permitir el registro de emprendimientos con información básica como nombre, descripción, categoría, integrantes y logotipo.
 02. El sistema debe permitir que los emprendedores inicien sesión mediante credenciales.
 03. El sistema debe permitir a los emprendedores editar la información de su perfil en cualquier momento.
@@ -29,3 +29,4 @@
 26. El sistema debe permitir a los visitantes reportar contenido inapropiado o información incorrecta en los perfiles de los emprendimientos.
 27. El sistema debe permitir a los emprendedores indicar el estado de disponibilidad de sus productos o servicios (Disponible, Agotado o Próximamente).
 28. El sistema debe permitir a los visitantes compartir productos específicos del catálogo mediante un enlace o a través de redes sociales.
+Toma el papel de un desarrollador web, tienes que hacer un desarrollo web para una feria llamada techfest, la idea de esta feria es que estudiantes emprendedores puedan promocionar sus productos y llegar a mas clientes, estas en la fase de planeación e hiciste unos requerimientos pero debes corregirlos, te voy a pasar los requerimientos y debes devolverlos en este formato: Codigo
