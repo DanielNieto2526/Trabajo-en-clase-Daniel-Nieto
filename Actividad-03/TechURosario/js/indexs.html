@@ -121,14 +121,15 @@
            --------------------------------------------------------- -->
       <div class="todo">TODO 4 · select con optgroup</div>
            <label for="programa">Programa académico</label>
-           <select id="programa" name="programa">
+           <select id="programa" name="programa" required>
             <option value="" disabled selected></option>
-            <optgroup label="ICT" >
-              <option value="0">Ing sistemas</option>
-              <option value="1">MACC</option>
-            <optgroup label="Juris">
-              <option value="0">Abogado</option>
-              <option value="1">Forense</option>
+            <optgroup label="Ingeniería" >
+              <option value="0">Sistemas</option>
+              <option value="1">Industrial</option>
+              <option value="2">Electrónica</option>
+            <optgroup label="Diseño">
+              <option value="0">Gráfico</option>
+              <option value="1">Multimedia</option>
             </optgroup>
             </option>
            </select>
@@ -145,6 +146,16 @@
              · envuelve el grupo en <div class="inline"> ... </div>
            --------------------------------------------------------- -->
       <div class="todo">TODO 5 · radios con name compartido</div>
+      <div class="inline">
+            <label for="experiencia">Nivel de experiencia</label>
+            <label for="nivel">Básico</label>
+            <input type="radio" id="nivel" name="nivel" value="basico" required checked>
+            <label for="intermedio">Intermedio</label>
+            <input type="radio" id="intermedio" name="nivel" value="intermedio">
+            <label for="avanzado">Avanzado</label>
+            <input type="radio" id="avanzado" name="nivel" value="avanzado">
+      </div>      
+      </div>
 
 
       <!-- TODO 6 --------------------------------------------------
