@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;">
+    <h1>Contact form</h1>
+    <h3>Please fill in your information and we'll be sending your order in no time.</h3>
+    <form name="formulario" action="" method="post" autocomplete="off" target="_blank">
+        <label for="nombre">Your Name  </label>
+        <input type="text" id="nombre" name="nombre" placeholder="First Name">
+        <input type="text" id="apellido" name="apellido" placeholder="Last Name"><br><br>
+        <label for="correo">Your Email</label>
+        <input type="email" id="correo" name="correo" placeholder="e.g.hello@contact.net"><br><br>
+        <label for="telefono">Phone*</label>
+        <input type="tel" id="telefono" name="telefono" required placeholder="###">
+        <input type="tel" id="telefono2" name="telefono2" required placeholder="###">
+        <input type="tel" id="telefono3" name="telefono3" required placeholder="####"><br><br>
+        <label for="message">Message Subject*</label>
+        <select id="message" name="message">
+            <option value="0">Other</option>
+        </select><br><br>
+        <label for="mensaje">Message*</label>
+        <textarea name="mensaje" required></textarea><br><br>
+        <label for="verifiacion">Verification*</label>
+        <div style="background-color: white;">
+        <input type="checkbox">
+        <label for="catcha">I´m not a robot      </label>
+        <img src="../imagenes/capcha.jpg" height="50" width="50">
+        </div><br><br>
+        <input type="submit" value="Submit Form">
+
+
+</body>
+</html>
