@@ -1,18 +1,18 @@
 import './Footer.css';
 
-const ANIO_ACTUAL = new Date().getFullYear();
-
 interface FooterProps {
-  ubicacion: string;
+  nombreSitio: string;
+  direccion: string;
+  anio: number; // las props pueden ser de cualquier tipo, no solo texto
 }
 
-export function Footer({ ubicacion }: FooterProps) {
+export function Footer({ nombreSitio, direccion, anio }: FooterProps) {
   return (
-    <footer className="footer">
-      <div className="footer__detalles">
-        <address className="footer__ubicacion">{ubicacion}</address>
-        <small className="footer__copyright">© {ANIO_ACTUAL}</small>
-      </div>
+    <footer className="footer" id="contacto">
+      <p>📍 {direccion}</p>
+      <p>
+        © {anio} {nombreSitio} · Hecho con React + TypeScript + Vite
+      </p>
     </footer>
   );
 }
